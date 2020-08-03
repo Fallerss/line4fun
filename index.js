@@ -32,4 +32,4 @@ const parts = message.content.split(' ');
 })
 
 
-client.login('NzM5NzEzMjkxOTI4MjA3NDAw.XyedsA.fNhBr7yjS4qzpgDrKVXogTKG9-U');
+client.login(process.env.token);
